@@ -1,0 +1,493 @@
+[
+  {
+    "_id": "pa1",
+    "first_name": "Alok",
+    "last_name": "Singh",
+    "mobile": "9237767898",
+    "address": "10 street",
+    "email": "ak@gmail.com",
+    "gender": "Male",
+    "dob":{
+      "$date": "2009-02-03T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app2",
+        "date":{
+          "$date":"2025-02-12T00:00:00Z"
+        },
+        "time": "14:05:00",
+        "status": "Cancelled",
+        "doctor": {
+          "doctor_id": "doc2",
+          "first_name": "Hari",
+          "last_name": "Sloan",
+          "license_no": "2j98",
+          "phone": "5534569200",
+          "email": "mop@gmail.com",
+          "specialization": "Dentist",
+          "qualification": "MBBS",
+          "hospitals": [
+            {
+              "hospital_id": "hosp2",
+              "name": "BB medical hospital",
+              "address": "15 westside",
+              "email": "bbm@gmail.com",
+              "phone_no": "3007767897"
+            }
+          ],
+          "shifts": [
+            "afternoon"
+          ]
+        },
+        "payment": null
+      }
+    ],
+    "diagnoses": [],
+    "medicines": []
+  },
+  {
+    "_id": "pa2",
+    "first_name": "Mani",
+    "last_name": "Reddy",
+    "mobile": "9534567200",
+    "address": "12 street",
+    "email": "mr@gmail.com",
+    "gender": "Female",
+    "dob": {
+      "$date":"1992-08-05T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app1",
+        "date": {
+          "$date":"2025-02-02T00:00:00Z"
+        },
+        "time": "17:05:00",
+        "status": "Completed",
+        "doctor": {
+          "doctor_id": "doc1",
+          "first_name": "Liam",
+          "last_name": "Sloan",
+          "license_no": "1h567",
+          "phone": "6237767897",
+          "email": "lop@gmail.com",
+          "specialization": "Cardiologist",
+          "qualification": "MD",
+          "hospitals": [
+            {
+              "hospital_id": "hosp1",
+              "name": "AA medical hospital",
+              "address": "10 street",
+              "email": "aam@gmail.com",
+              "phone_no": "2007767897"
+            }
+          ],
+          "shifts": [
+            "evening"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay1",
+          "amount": 200.78,
+          "method": "Credit",
+          "status": "Paid"
+        }
+      },
+      {
+        "appointment_id": "app3",
+        "date": {
+          "$date":"2025-02-12T00:00:00Z"
+        },
+        "time": "09:05:00",
+        "status": "Completed",
+        "doctor": {
+          "doctor_id": "doc3",
+          "first_name": "Kozy",
+          "last_name": "Mohan",
+          "license_no": "rt567",
+          "phone": "8134562323",
+          "email": "top@gmail.com",
+          "specialization": "Neurologist",
+          "qualification": "MD",
+          "hospitals": [
+            {
+              "hospital_id": "hosp3",
+              "name": "CC medical hospital",
+              "address": "12 eastcoast",
+              "email": "ccm@gmail.com",
+              "phone_no": "4007767897"
+            }
+          ],
+          "shifts": [
+            "morning"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay2",
+          "amount": 300.56,
+          "method": "Credit",
+          "status": "Pending"
+        }
+      }
+    ],
+    "diagnoses": [
+      {
+        "diagnosis_id": "diag1",
+        "name": "Heart Blockage"
+      },
+      {
+        "diagnosis_id": "diag6",
+        "name": "Angina"
+      }
+    ],
+    "medicines": [
+      {
+        "medicine_id": "med1",
+        "name": "Ciproflaxic",
+        "prescription_required": false
+      },
+      {
+        "medicine_id": "med2",
+        "name": "Nitrofurantoin",
+        "prescription_required": true
+      }
+    ]
+  },
+  {
+    "_id": "pa3",
+    "first_name": "Ratan",
+    "last_name": "Tagore",
+    "mobile": "9134562398",
+    "address": "14 downtown",
+    "email": "rt@gmail.com",
+    "gender": "Male",
+    "dob":  {
+      "$date":"2001-03-14T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app5",
+        "date": {
+          "$date":"2025-02-14T00:00:00Z"
+        },
+        "time": "15:05:00",
+        "status": "Completed",
+        "doctor": {
+          "doctor_id": "doc4",
+          "first_name": "Panni",
+          "last_name": "Davis",
+          "license_no": "kt321",
+          "phone": "2034567887",
+          "email": "lyvt@gmail.com",
+          "specialization": "Opthalmologist",
+          "qualification": "MD",
+          "hospitals": [
+            {
+              "hospital_id": "hosp1",
+              "name": "AA medical hospital",
+              "address": "10 street",
+              "email": "aam@gmail.com",
+              "phone_no": "2007767897"
+            }
+          ],
+          "shifts": [
+            "afternoon"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay4",
+          "amount": 300.45,
+          "method": "Insurance",
+          "status": "Pending"
+        }
+      }
+    ],
+    "diagnoses": [
+      {
+        "diagnosis_id": "diag3",
+        "name": "Cataract"
+      }
+    ],
+    "medicines": [
+      {
+        "medicine_id": "med2",
+        "name": "Nitrofurantoin",
+        "prescription_required": true
+      }
+    ]
+  },
+  {
+    "_id": "pa4",
+    "first_name": "Kia",
+    "last_name": "Prasad",
+    "mobile": "9034567854",
+    "address": "15 westside",
+    "email": "kps@gmail.com",
+    "gender": "Female",
+    "dob":{
+      "$date":"1999-09-13T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app6",
+        "date":{
+          "$date":"2025-02-15T00:00:00Z"
+        },
+        "time": "08:05:00",
+        "status": "Scheduled",
+        "doctor": {
+          "doctor_id": "doc3",
+          "first_name": "Kozy",
+          "last_name": "Mohan",
+          "license_no": "rt567",
+          "phone": "8134562323",
+          "email": "top@gmail.com",
+          "specialization": "Neurologist",
+          "qualification": "MD",
+          "hospitals": [
+            {
+              "hospital_id": "hosp3",
+              "name": "CC medical hospital",
+              "address": "12 eastcoast",
+              "email": "ccm@gmail.com",
+              "phone_no": "4007767897"
+            }
+          ],
+          "shifts": [
+            "morning"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay5",
+          "amount": 250.55,
+          "method": "Cash",
+          "status": "Paid"
+        }
+      }
+    ],
+    "diagnoses": [
+      {
+        "diagnosis_id": "diag2",
+        "name": "Aneurysm"
+      }
+    ],
+    "medicines": [
+      {
+        "medicine_id": "med1",
+        "name": "Ciproflaxic",
+        "prescription_required": false
+      }
+    ]
+  },
+  {
+    "_id": "pa5",
+    "first_name": "Suzy",
+    "last_name": "Brian",
+    "mobile": "9231867808",
+    "address": "16 eastzone",
+    "email": "sb@gmail.com",
+    "gender": "Female",
+    "dob": {
+      "$date":"2002-04-14T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app4",
+        "date":{
+          "$date":"2025-02-13T00:00:00Z"
+        },
+        "time": "10:05:00",
+        "status": "Completed",
+        "doctor": {
+          "doctor_id": "doc3",
+          "first_name": "Kozy",
+          "last_name": "Mohan",
+          "license_no": "rt567",
+          "phone": "8134562323",
+          "email": "top@gmail.com",
+          "specialization": "Neurologist",
+          "qualification": "MD",
+          "hospitals": [
+            {
+              "hospital_id": "hosp3",
+              "name": "CC medical hospital",
+              "address": "12 eastcoast",
+              "email": "ccm@gmail.com",
+              "phone_no": "4007767897"
+            }
+          ],
+          "shifts": [
+            "morning"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay3",
+          "amount": 200.22,
+          "method": "Cash",
+          "status": "Paid"
+        }
+      }
+    ],
+    "diagnoses": [
+      {
+        "diagnosis_id": "diag2",
+        "name": "Aneurysm"
+      }
+    ],
+    "medicines": [
+      {
+        "medicine_id": "med4",
+        "name": "Clopivas",
+        "prescription_required": false
+      }
+    ]
+  },
+  {
+    "_id": "pa6",
+    "first_name": "Lane",
+    "last_name": "Dety",
+    "mobile": "9362867808",
+    "address": "17 downtown",
+    "email": "popt@gmail.com",
+    "gender": "Male",
+    "dob": {
+      "$date":"2006-04-15T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app7",
+        "date": {
+          "$date":"2025-02-16T00:00:00Z"
+        },
+        "time": "17:05:00",
+        "status": "Scheduled",
+        "doctor": {
+          "doctor_id": "doc6",
+          "first_name": "Sanjay",
+          "last_name": "Davis",
+          "license_no": "sa9865",
+          "phone": "2121867809",
+          "email": "sasj@gmail.com",
+          "specialization": "neurOrthopaedic",
+          "qualification": "MBBS",
+          "hospitals": [
+            {
+              "hospital_id": "hosp2",
+              "name": "BB medical hospital",
+              "address": "15 westside",
+              "email": "bbm@gmail.com",
+              "phone_no": "3007767897"
+            },
+            {
+              "hospital_id": "hosp3",
+              "name": "CC medical hospital",
+              "address": "12 eastcoast",
+              "email": "ccm@gmail.com",
+              "phone_no": "4007767897"
+            }
+          ],
+          "shifts": [
+            "morning",
+            "evening"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay6",
+          "amount": 500.78,
+          "method": "Insurance",
+          "status": "Paid"
+        }
+      }
+    ],
+    "diagnoses": [
+      {
+        "diagnosis_id": "diag7",
+        "name": "Fracture and nerve damage"
+      }
+    ],
+    "medicines": [
+      {
+        "medicine_id": "med2",
+        "name": "Nitrofurantoin",
+        "prescription_required": true
+      },
+      {
+        "medicine_id": "med5",
+        "name": "Vaxnoc",
+        "prescription_required": true
+      }
+    ]
+  },
+  {
+    "_id": "pa7",
+    "first_name": "Kane",
+    "last_name": "Loy",
+    "mobile": "9231899808",
+    "address": "18 downtown",
+    "email": "Kalo@gmail.com",
+    "gender": "Male",
+    "dob": {
+      "$date":"2002-04-16T00:00:00Z"
+    },
+    "appointments": [
+      {
+        "appointment_id": "app8",
+        "date":{
+          "$date":"2025-02-17T00:00:00Z"
+        },
+        "time": "09:05:00",
+        "status": "Scheduled",
+        "doctor": {
+          "doctor_id": "doc6",
+          "first_name": "Sanjay",
+          "last_name": "Davis",
+          "license_no": "sa9865",
+          "phone": "2121867809",
+          "email": "sasj@gmail.com",
+          "specialization": "neurOrthopaedic",
+          "qualification": "MBBS",
+          "hospitals": [
+            {
+              "hospital_id": "hosp2",
+              "name": "BB medical hospital",
+              "address": "15 westside",
+              "email": "bbm@gmail.com",
+              "phone_no": "3007767897"
+            },
+            {
+              "hospital_id": "hosp3",
+              "name": "CC medical hospital",
+              "address": "12 eastcoast",
+              "email": "ccm@gmail.com",
+              "phone_no": "4007767897"
+            }
+          ],
+          "shifts": [
+            "morning",
+            "evening"
+          ]
+        },
+        "payment": {
+          "payment_id": "pay7",
+          "amount": 600.66,
+          "method": "Cash",
+          "status": "Paid"
+        }
+      }
+    ],
+    "diagnoses": [
+      {
+        "diagnosis_id": "diag7",
+        "name": "Fracture and nerve damage"
+      }
+    ],
+    "medicines": [
+      {
+        "medicine_id": "med5",
+        "name": "Vaxnoc",
+        "prescription_required": true
+      }
+    ]
+  }
+]
